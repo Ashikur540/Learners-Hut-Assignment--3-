@@ -8,9 +8,9 @@
 }
 
 /* carousol  */
-.carousel-item {
+/* .carousel-item {
   background-size: cover;
-}
+} */
 .carousel-item::before {
   content: "";
   display: block;
@@ -36,6 +36,6 @@
 @media  (max-width: 768px) {
   .carousel-item img {
     object-fit: cover;
-    height:40vh;
+    height:70vh;
   }
 }
