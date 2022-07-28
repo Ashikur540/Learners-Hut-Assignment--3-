@@ -26,3 +26,7 @@
 .carousel-caption {
     bottom: 7rem;
 }
+/* cources */
+.card {
+    max-width: 800px !important;
+}
