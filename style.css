@@ -8,25 +8,34 @@
 }
 
 /* carousol  */
-.carousel-item  {
- background-size: cover;
+.carousel-item {
+  background-size: cover;
 }
-.carousel-item::before  {
- content: '';
- display: block;
- position: absolute;
- top: 0%;
- left: 0%;
- bottom: 0%;
- right: 0%;
- background: #121212;
- opacity: .5;
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  right: 0%;
+  background: #121212;
+  opacity: 0.5;
 }
 
 .carousel-caption {
-    bottom: 7rem;
+  bottom: 7rem;
 }
 /* cources */
 .card {
-    max-width: 800px !important;
+  max-width: 800px !important;
+}
+
+/* carousol fix for small devices  */
+
+@media  (max-width: 768px) {
+  .carousel-item img {
+    object-fit: cover;
+    height:40vh;
+  }
 }
