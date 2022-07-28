@@ -1,0 +1,19 @@
+1.navbar
+2.carousol.
+3.discover courses .
+4.EXPLORE INSTITUTE (OP).
+5.MEET OUR STUDENTS (OP).
+6.STUDENT FEEDBACK (OP).
+7.Faq.min(4 option).must!!
+8.footer.
+
+////////////////////////BONUS//////////////////////////
+1.ready to join (modal open must).
+2.Faq te realistic question dite hbe.
+
+--flex vs grid diff??
+--bootstrap vs tailwind  diff??
+--css box model ??
+--senmantic tag with examples??
+4. trsuted company ( must be seen in only desktop not mobile and tab.)
+3.commit again n again. min-10 times

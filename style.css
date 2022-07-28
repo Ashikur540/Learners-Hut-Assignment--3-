@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* carousol  */
 /* .carousel-item {
   background-size: cover;
@@ -23,9 +25,9 @@
   opacity: 0.5;
 }
 
-.carousel-caption {
+/* .carousel-caption {
   bottom: 7rem;
-}
+} */
 /* cources */
 .card {
   max-width: 800px !important;
@@ -33,9 +35,22 @@
 
 /* carousol fix for small devices  */
 
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
   .carousel-item img {
     object-fit: cover;
-    height:70vh;
+    height: 70vh;
+  }
+  .com {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .carousel-item img {
+    object-fit: cover;
+    height: 70vh;
+  }
+  .com {
+    display: none;
   }
 }
