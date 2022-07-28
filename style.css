@@ -4,5 +4,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
+}
+
+/* carousol  */
+.carousel-item  {
+ background-size: cover;
+}
+.carousel-item::before  {
+ content: '';
+ display: block;
+ position: absolute;
+ top: 0%;
+ left: 0%;
+ bottom: 0%;
+ right: 0%;
+ background: #121212;
+ opacity: .5;
+}
+
+.carousel-caption {
+    bottom: 7rem;
 }
